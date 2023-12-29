@@ -1,4 +1,5 @@
 import Community from '@/components/Community'
+import ErrorPage from '@/components/ErrorPage'
 import Features from '@/components/Features'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
@@ -104,12 +105,13 @@ export default function Home() {
     //   </div>
     // </main>
       <main>
-        <Hero/>
+        {/* <Hero/>
         <Community/>
         <Features/>
         <Mobile/>
         <SuccessStories/>
-        <QuickLinkSection/>
+        <QuickLinkSection/> */}
+        <ErrorPage/>
       </main>
 
   )
